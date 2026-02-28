@@ -1,13 +1,16 @@
-# EvolutionX for the Xiaomi 12T
+# EvolutionX for Xiaomi 12T
+> [!CAUTION]
+> === Please proceed with caution, New device tree has not been tested. open issue if you have any problems using DT. ===
+
 ### The unofficial Pixel experience for the Xiaomi 12T
-Thanks to [The Xiaomi Mediatek Devs](https://github.com/xiaomi-mediatek-devs) for their work on this device. This project uses the following repositories maintained by them:
+Thanks to [Xiaomi MT6895 Devs](https://github.com/xiaomi-mt6895-devs) for their work on this device. This project uses the following repositories maintained by them:
 
 Required files   | Source
 -------:|:-------------------------
-Hardware     | [android_hardware_xiaomi](https://github.com/xiaomi-mediatek-devs/android_hardware_xiaomi) <br /> [android_hardware_mediatek](https://github.com/xiaomi-mediatek-devs/android_hardware-mediatek)
-Device Trees | [android_device_xiaomi_plato](https://github.com/xiaomi-mediatek-devs/android_device_xiaomi_plato) <br /> [android_device_xiaomi_mt6895-common](https://github.com/xiaomi-mediatek-devs/android_vendor_xiaomi_mt6895-common) <br /> [android_device_mediatek_sepolicy_vndr](https://github.com/xiaomi-mediatek-devs/android_device_mediatek_sepolicy_vndr)
-Vendor Trees     | [android_vendor_xiaomi_mt6895-common](https://github.com/xiaomi-mediatek-devs/android_vendor_xiaomi_mt6895-common) <br /> Propietary vendor blobs were extracted through the extract-files scripts.
-Kernel Dependencies  | [android_kernel_xiaomi_mt6895](https://github.com/xiaomi-mediatek-devs/android_kernel_xiaomi_mt6895)
+Hardware     | [android_hardware_xiaomi (LineageOS)](https://github.com/lineageos/android_hardware_xiaomi) <br /> [android_hardware_mediatek](https://github.com/xiaomi-mt6895-devs/android_hardware_mediatek)
+Device Trees | [android_device_xiaomi_plato](https://github.com/archcloudy/android_device_xiaomi_plato) <br /> [android_device_xiaomi_mt6895-common ](https://github.com/xiaomi-mt6895-devs/android_device_xiaomi_mt6895-common) <br /> [android_device_mediatek_sepolicy_vndr](https://github.com/xiaomi-mt6895-devs/android_device_mediatek_sepolicy_vndr)
+Vendor Trees     | [proprietary_vendor_xiaomi_mt6895-common](https://github.com/xiaomi-mt6895-devs/proprietary_vendor_xiaomi_mt6895-common) <br /> Propietary vendor blobs were extracted through the extract-files scripts.
+Kernel Dependencies  | [android_kernel_xiaomi_mt6895](https://github.com/xiaomi-mt6895-devs/android_kernel_xiaomi_mt6895)
 
 ## Device specifications
 

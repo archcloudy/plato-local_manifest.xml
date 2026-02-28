@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
     <!--Remotes-->
-    <remote name="los"            fetch="https://github.com/LineageOS"           revision="lineage-21" />
-    <remote name="mtk"            fetch="https://github.com/xiaomi-mediatek-devs"           revision="lineage-22.2" />
-    <remote name="yufukuai"            fetch="https://github.com/Yufukuai"           revision="lineage-22.2" />
+    <remote name="los"            fetch="https://github.com/LineageOS"           revision="lineage-23.1" />
+    <remote name="mtk"            fetch="https://github.com/xiaomi-mt6895-devs"           revision="lineage-23.1" />
+    <remote name="archcloudy"            fetch="https://github.com/archcloudy"           revision="lineage-23.1" />
 
     <!--Devices Trees-->
-    <project name="android_device_xiaomi_plato"           path="device/xiaomi/plato"       remote="yufukuai" />
-    <project name="android_device_xiaomi_mt6895-common"     path="device/xiaomi/mt6895-common" remote="yufukuai" />
+    <project name="android_device_xiaomi_plato"           path="device/xiaomi/plato"       remote="archcloudy" />
+    <project name="android_device_xiaomi_mt6895-common"     path="device/xiaomi/mt6895-common" remote="mtk" />
     <project name="android_device_mediatek_sepolicy_vndr"     path="device/mediatek/sepolicy_vndr" remote="mtk" />
 
     <!--Vendors Tree-->
-    <project name="android_vendor_xiaomi_mt6895-common" path="vendor/xiaomi/mt6895-common" remote="mtk" />
+    <project name="proprietary_vendor_xiaomi_mt6895-common" path="vendor/xiaomi/mt6895-common" remote="mtk" />
 
     <!--Kernel Tree-->
     <project name="android_kernel_xiaomi_mt6895"            path="kernel/xiaomi/mt6895"        remote="mtk" />
 
     <!--Hardware dependencies-->
-    <project name="android_hardware_xiaomi"                 path="hardware/xiaomi"             remote="mtk" />
+    <project name="android_hardware_xiaomi"                 path="hardware/xiaomi"             remote="los" />
     <project name="android_hardware_mediatek"             path="hardware/mediatek"            remote="mtk" />
 </manifest>
