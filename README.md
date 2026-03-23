@@ -2,7 +2,7 @@
 > [!CAUTION]
 > === Please proceed with caution as this has not been tested. Open issue if there's any problem. ===
 
-### LineageOS 23.1 for Xiaomi 12T
+### LineageOS 23.2 for Xiaomi 12T
 This local-manifest is designed for LineageOS Based ROMs (ex. EvoX, etc)\
 You can use this local manifest to build your favorite LineageOS Based ROMs as your pick.\
 All credits and work goes to [Xiaomi MT6895 Devs](https://github.com/xiaomi-mt6895-devs).
@@ -11,7 +11,7 @@ Here are all of the sources used for this build:
 Required files   | Source
 -------:|:-------------------------
 Hardware     | [android_hardware_xiaomi](https://github.com/lineageos/android_hardware_xiaomi) <br /> [android_hardware_mediatek](https://github.com/xiaomi-mt6895-devs/android_hardware_mediatek)
-Device Trees | [android_device_xiaomi_plato](https://github.com/archcloudy/android_device_xiaomi_plato) <br /> [android_device_xiaomi_mt6895-common ](https://github.com/xiaomi-mt6895-devs/android_device_xiaomi_mt6895-common) <br /> [android_device_mediatek_sepolicy_vndr](https://github.com/xiaomi-mt6895-devs/android_device_mediatek_sepolicy_vndr)
+Device Trees | [android_device_xiaomi_plato](https://github.com/archcloudy/android_device_xiaomi_plato) <br /> [android_device_xiaomi_mt6895-common ](https://github.com/xiaomi-mt6895-devs/android_device_xiaomi_mt6895-common) <br /> [android_device_mediatek_sepolicy_vndr](https://github.com/archcloudy/android_device_mediatek_sepolicy_vndr)
 Vendor Trees     | [proprietary_vendor_xiaomi_mt6895-common](https://github.com/xiaomi-mt6895-devs/proprietary_vendor_xiaomi_mt6895-common) <br /> Propietary vendor blobs were extracted through the extract-files scripts.
 Kernel Dependencies  | [android_kernel_xiaomi_mt6895](https://github.com/xiaomi-mt6895-devs/android_kernel_xiaomi_mt6895)
 
