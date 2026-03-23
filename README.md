@@ -1,6 +1,4 @@
 # Xiaomi 12T Local Manifest AOSP
-> [!CAUTION]
-> === Please proceed with caution as this has not been tested. Open issue if there's any problem. ===
 
 ### LineageOS 23.2 for Xiaomi 12T
 This local-manifest is designed for LineageOS Based ROMs (ex. EvoX, etc)\
