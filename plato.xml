@@ -18,5 +18,5 @@
 
     <!--Hardware dependencies-->
     <project name="android_hardware_xiaomi"                 path="hardware/xiaomi"             remote="los" />
-    <project name="android_hardware_mediatek"             path="hardware/mediatek"            remote="mtk"    revision="lineage-23.1"  />
+    <project name="android_hardware_mediatek"             path="hardware/mediatek"            remote="los"  />
 </manifest>
