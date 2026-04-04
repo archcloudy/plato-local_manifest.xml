@@ -8,10 +8,10 @@ All credits and work goes to [Xiaomi MT6895 Devs](https://github.com/xiaomi-mt68
 Here are all of the sources used for this build:
 Required files   | Source
 -------:|:-------------------------
-Hardware     | [android_hardware_xiaomi](https://github.com/lineageos/android_hardware_xiaomi) <br /> [android_hardware_mediatek](https://github.com/lineageos/android_hardware_mediatek)
-Device Trees | [android_device_xiaomi_plato](https://github.com/archcloudy/android_device_xiaomi_plato) <br /> [android_device_xiaomi_mt6895-common ](https://github.com/xagaforge/android_device_xiaomi_mt6895-common) <br /> [android_device_mediatek_sepolicy_vndr](https://github.com/archcloudy/android_device_mediatek_sepolicy_vndr)
+Hardware     | [android_hardware_xiaomi](https://github.com/lineageos/android_hardware_xiaomi) <br /> [android_hardware_mediatek](https://github.com/xagaforge/android_hardware_mediatek)
+Device Trees | [android_device_xiaomi_plato](https://github.com/archcloudy/android_device_xiaomi_plato) <br /> [android_device_xiaomi_mt6895-common ](https://github.com/xagaforge/android_device_xiaomi_mt6895-common) <br /> [android_device_mediatek_sepolicy_vndr](https://github.com/xagaforge/android_device_mediatek_sepolicy_vndr)
 Vendor Trees     | [proprietary_vendor_xiaomi_mt6895-common](https://github.com/xiaomi-mt6895-devs/proprietary_vendor_xiaomi_mt6895-common) <br /> Propietary vendor blobs were extracted through the extract-files scripts.
-Kernel Dependencies  | [android_kernel_xiaomi_mt6895](https://github.com/xiaomi-mt6895-devs/android_kernel_xiaomi_mt6895)
+Kernel Dependencies  | [android_kernel_xiaomi_mt6895](https://github.com/xagaforge/android_kernel_xiaomi_mt6895)
 
 ## Device specifications
 

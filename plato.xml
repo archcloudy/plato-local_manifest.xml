@@ -9,15 +9,15 @@
     <!--Devices Trees-->
     <project name="android_device_xiaomi_plato"             path="device/xiaomi/plato"             remote="archcloudy" />
     <project name="android_device_xiaomi_mt6895-common"     path="device/xiaomi/mt6895-common"     remote="XagaForge" />
-    <project name="android_device_mediatek_sepolicy_vndr"   path="device/mediatek/sepolicy_vndr"   remote="archcloudy" />
+    <project name="android_device_mediatek_sepolicy_vndr"   path="device/mediatek/sepolicy_vndr"   remote="XagaForge" />
 
     <!--Vendors Tree-->
     <project name="proprietary_vendor_xiaomi_mt6895-common" path="vendor/xiaomi/mt6895-common"     remote="mtk" />
 
     <!--Kernel Tree-->
-    <project name="android_kernel_xiaomi_mt6895"            path="kernel/xiaomi/mt6895"            remote="mtk" />
+    <project name="android_kernel_xiaomi_mt6895"            path="kernel/xiaomi/mt6895"            remote="XagaForge" />
 
     <!--Hardware dependencies-->
     <project name="android_hardware_xiaomi"                 path="hardware/xiaomi"             remote="los" />
-    <project name="android_hardware_mediatek"             path="hardware/mediatek"            remote="los"  />
+    <project name="android_hardware_mediatek"             path="hardware/mediatek"            remote="XagaForge"  />
 </manifest>
