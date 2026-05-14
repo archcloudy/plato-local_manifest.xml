@@ -1,23 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
     <!--Remotes-->
-    <remote name="los"            fetch="https://github.com/LineageOS"             revision="lineage-23.2" />
-    <remote name="mtk"            fetch="https://github.com/xiaomi-mt6895-devs"    revision="lineage-23.2" />
-    <remote name="archcloudy"     fetch="https://github.com/archcloudy"            revision="lineage-23.2" />
     <remote name="XagaForge"      fetch="https://github.com/XagaForge"             revision="16.2"         />
+    <remote name="archcloudy"     fetch="https://github.com/archcloudy"            revision="lineage-23.2" />
 
     <!--Devices Trees-->
     <project name="android_device_xiaomi_plato"             path="device/xiaomi/plato"             remote="archcloudy" />
-    <project name="android_device_xiaomi_mt6895-common"     path="device/xiaomi/mt6895-common"     remote="XagaForge" />
-    <project name="android_device_mediatek_sepolicy_vndr"   path="device/mediatek/sepolicy_vndr"   remote="XagaForge" />
+    <project name="android_device_xiaomi_mt6895-common"     path="device/xiaomi/mt6895-common"     remote="XagaForge"  />
+    <project name="android_device_mediatek_sepolicy_vndr"   path="device/mediatek/sepolicy_vndr"   remote="XagaForge"  />
 
     <!--Vendors Tree-->
-    <project name="proprietary_vendor_xiaomi_mt6895-common" path="vendor/xiaomi/mt6895-common"     remote="mtk" />
+    <project name="proprietary_vendor_xiaomi_mt6895-common" path="vendor/xiaomi/mt6895-common"     remote="XagaForge"  />
 
     <!--Kernel Tree-->
-    <project name="android_kernel_xiaomi_mt6895"            path="kernel/xiaomi/mt6895"            remote="XagaForge" />
+    <project name="android_kernel_xiaomi_mt6895"            path="kernel/xiaomi/mt6895"            remote="XagaForge"  />
 
     <!--Hardware dependencies-->
-    <project name="android_hardware_xiaomi"                 path="hardware/xiaomi"             remote="los" />
-    <project name="android_hardware_mediatek"             path="hardware/mediatek"            remote="XagaForge"  />
+    <project name="android_hardware_xiaomi"                 path="hardware/xiaomi"             remote="XagaForge"      />
+    <project name="android_hardware_mediatek"               path="hardware/mediatek"           remote="XagaForge"      />
 </manifest>
