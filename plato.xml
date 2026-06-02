@@ -3,6 +3,7 @@
     <!--Remotes-->
     <remote name="XagaForge"      fetch="https://github.com/XagaForge"             revision="16.2"         />
     <remote name="archcloudy"     fetch="https://github.com/archcloudy"            revision="lineage-23.2" />
+    <remote name="gl"             fetch="https://gitlab.com/archcloudy"            revision="16.2"         />
 
     <!--Devices Trees-->
     <project name="android_device_xiaomi_plato"             path="device/xiaomi/plato"             remote="archcloudy" />
@@ -11,6 +12,7 @@
 
     <!--Vendors Tree-->
     <project name="android_vendor_xiaomi_mt6895-common"     path="vendor/xiaomi/mt6895-common"     remote="XagaForge"  />
+    <project name="android_vendor_xiaomi_plato"             path="vendor/xiaomi/plato"             remote="gl"         />
 
     <!--Kernel Tree-->
     <project name="android_kernel_xiaomi_mt6895"            path="kernel/xiaomi/mt6895"            remote="XagaForge"  />
